@@ -20,12 +20,12 @@ public class WaschOption {
         }
 
         this.capacity--;
-        System.out.println("Reinigung für Auto '" + auto.getName() + "' in '" + this.type.toString() + "' gestartet. Freie Kapazität: " + this.capacity);
+        System.out.println("Reinigung für Auto '" + auto.getName() + "' in '" + this.type.toString() + "' gestartet. Neue freie Kapazität: " + this.capacity);
     }
 
-    public synchronized void leave(Auto auto) {
+    public synchronized void leave(Auto auto, int duration) {
         this.capacity++;
-        System.out.println("Reinigung für Auto '" + auto.getName() + "' in '" + this.type.toString() + "' beendet. Freie Kapazität: " + this.capacity);
+        System.out.println("Reinigung für Auto '" + auto.getName() + "' in '" + this.type.toString() + "' beendet (Dauer: " + duration + " Minuten). Neue freie Kapazität: " + this.capacity);
         this.notify();
     }
 }

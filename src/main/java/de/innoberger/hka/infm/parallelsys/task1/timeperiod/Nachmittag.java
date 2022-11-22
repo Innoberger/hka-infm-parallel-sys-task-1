@@ -1,14 +1,13 @@
 package de.innoberger.hka.infm.parallelsys.task1.timeperiod;
 
-import de.innoberger.hka.infm.parallelsys.task1.Auto;
-import de.innoberger.hka.infm.parallelsys.task1.wasch.WaschTyp;
+import de.innoberger.hka.infm.parallelsys.task1.wasch.WaschPark;
 
 import java.util.Random;
 
 public class Nachmittag extends TimePeriod {
 
-    public Nachmittag() {
-        super(3, 5, 3);
+    public Nachmittag(Random random, WaschPark waschPark) {
+        super(random, waschPark, 3, 5, 3);
     }
 
 }

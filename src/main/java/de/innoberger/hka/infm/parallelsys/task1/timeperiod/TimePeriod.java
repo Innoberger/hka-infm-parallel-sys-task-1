@@ -1,17 +1,19 @@
 package de.innoberger.hka.infm.parallelsys.task1.timeperiod;
 
 import de.innoberger.hka.infm.parallelsys.task1.Auto;
-import de.innoberger.hka.infm.parallelsys.task1.wasch.WaschTyp;
+import de.innoberger.hka.infm.parallelsys.task1.wasch.WaschPark;
 
 import java.util.Random;
 
 public abstract class TimePeriod {
 
     private Random random;
+    private WaschPark waschPark;
     private int minAutos, maxAutos, innenraumreinigungModulo;
 
-    public TimePeriod(int minAutos, int maxAutos, int innenraumreinigungModulo) {
-        this.random = new Random();
+    public TimePeriod(Random random, WaschPark waschPark, int minAutos, int maxAutos, int innenraumreinigungModulo) {
+        this.random = random;
+        this.waschPark = waschPark;
         this.minAutos = minAutos;
         this.maxAutos = maxAutos;
         this.innenraumreinigungModulo = innenraumreinigungModulo;
@@ -23,10 +25,11 @@ public abstract class TimePeriod {
             System.out.println(this.getName() + " Minute " + (i * 5) + ": " + autoAmount + " Autos kommen vorbei");
 
             for (int j = 0; j < autoAmount; j++) {
-                this.wascheAuto(WaschTyp.WASCHSTRAßE);
+                boolean auchInnenraumreinigung = j % this.innenraumreinigungModulo == 0;
 
-                if (j % this.innenraumreinigungModulo == 0)
-                    this.wascheAuto(WaschTyp.INNENRAUMREINIGUNG);
+                Auto auto = new Auto(this.random, this.waschPark, auchInnenraumreinigung);
+
+                auto.start();
             }
 
             try {
@@ -35,13 +38,6 @@ public abstract class TimePeriod {
         }
 
         System.out.println(this.getName() + " ist vorbei");
-    }
-
-    private void wascheAuto(WaschTyp type) {
-        int duration = type.getDurations()[this.random.nextInt(type.getDurations().length)];
-        Auto auto = new Auto();
-
-        auto.start();
     }
 
     public String getName() {
