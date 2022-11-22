@@ -22,12 +22,14 @@ public abstract class TimePeriod {
 
         for (int i = 0; i < 12; i++) {
             int autoAmount = random.nextInt(this.minAutos, this.maxAutos + 1);
-            System.out.println(this.getName() + " Minute " + (i * 5) + ": " + autoAmount + " Autos kommen vorbei");
+            String minuteString = String.format("%02d", i * 5);
+
+            System.out.println(this.getName() + " Minute " + minuteString + ": " + autoAmount + " Autos kommen vorbei");
 
             for (int j = 0; j < autoAmount; j++) {
                 boolean auchInnenraumreinigung = j % this.innenraumreinigungModulo == 0;
 
-                Auto auto = new Auto(this.random, this.waschPark, auchInnenraumreinigung);
+                Auto auto = new Auto(this.random, this.waschPark, "Auto@" + this.getName() + ":" + minuteString + "#" + j, auchInnenraumreinigung);
 
                 auto.start();
             }

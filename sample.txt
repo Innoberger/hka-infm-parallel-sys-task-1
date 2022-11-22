@@ -1,878 +1,932 @@
 --- Nachmittag hat begonnen
-Nachmittag Minute 0: 3 Autos kommen vorbei
-Auto 'Thread-0' ist angekommen
-Auto 'Thread-2' ist angekommen
-Auto 'Thread-1' ist angekommen
-Reinigung für Auto 'Thread-0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 4
-Reinigung für Auto 'Thread-1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 3
-Reinigung für Auto 'Thread-2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 2
-Nachmittag Minute 5: 5 Autos kommen vorbei
-Auto 'Thread-3' ist angekommen
-Auto 'Thread-4' ist angekommen
-Auto 'Thread-5' ist angekommen
-Auto 'Thread-6' ist angekommen
-Auto 'Thread-7' ist angekommen
-Reinigung für Auto 'Thread-1' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
-Reinigung für Auto 'Thread-6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-7' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-1' wurde komplett gewaschen
-Reinigung für Auto 'Thread-2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-2' wurde komplett gewaschen
-Reinigung für Auto 'Thread-4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
-Nachmittag Minute 10: 5 Autos kommen vorbei
-Auto 'Thread-8' ist angekommen
-Auto 'Thread-9' ist angekommen
-Auto 'Thread-10' ist angekommen
-Auto 'Thread-11' ist angekommen
-Auto 'Thread-12' ist angekommen
-Reinigung für Auto 'Thread-5' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-5' wurde komplett gewaschen
-Reinigung für Auto 'Thread-8' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-7' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-7' wurde komplett gewaschen
-Reinigung für Auto 'Thread-9' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-6' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-6' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-10' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-4' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-4' wurde komplett gewaschen
-Reinigung für Auto 'Thread-11' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Nachmittag Minute 00: 3 Autos kommen vorbei
+Auto 'Auto@Nachmittag:00#0' ist angekommen
+Auto 'Auto@Nachmittag:00#1' ist angekommen
+Auto 'Auto@Nachmittag:00#2' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:00#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 4
+Reinigung für Auto 'Auto@Nachmittag:00#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 3
+Reinigung für Auto 'Auto@Nachmittag:00#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 2
+Nachmittag Minute 05: 4 Autos kommen vorbei
+Auto 'Auto@Nachmittag:05#0' ist angekommen
+Auto 'Auto@Nachmittag:05#1' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:05#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:05#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:05#2' ist angekommen
+Auto 'Auto@Nachmittag:05#3' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:00#0' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:00#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
+Reinigung für Auto 'Auto@Nachmittag:05#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:00#2' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:05#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:00#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:00#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:00#1' wurde komplett gewaschen
+Nachmittag Minute 10: 3 Autos kommen vorbei
+Reinigung für Auto 'Auto@Nachmittag:05#1' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@Nachmittag:05#1' wurde komplett gewaschen
+Auto 'Auto@Nachmittag:10#0' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:10#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:10#1' ist angekommen
+Auto 'Auto@Nachmittag:10#2' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:10#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:00#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 4
+Auto 'Auto@Nachmittag:00#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:05#0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:05#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
+Reinigung für Auto 'Auto@Nachmittag:10#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:05#3' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:05#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
 Nachmittag Minute 15: 4 Autos kommen vorbei
-Auto 'Thread-13' ist angekommen
-Auto 'Thread-15' ist angekommen
-Auto 'Thread-14' ist angekommen
-Auto 'Thread-16' ist angekommen
-Reinigung für Auto 'Thread-3' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-12' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-10' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-6' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-13' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-10' wurde komplett gewaschen
-Auto 'Thread-6' wurde komplett gewaschen
-Reinigung für Auto 'Thread-0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-0' wurde komplett gewaschen
-Reinigung für Auto 'Thread-8' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-8' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-15' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:15#0' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:15#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:15#1' ist angekommen
+Auto 'Auto@Nachmittag:15#2' ist angekommen
+Auto 'Auto@Nachmittag:15#3' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:05#2' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:05#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:15#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:10#0' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:10#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:15#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:05#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@Nachmittag:05#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:10#1' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:10#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:15#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:05#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@Nachmittag:05#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:15#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:15#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
 Nachmittag Minute 20: 4 Autos kommen vorbei
-Auto 'Thread-17' ist angekommen
-Auto 'Thread-18' ist angekommen
-Auto 'Thread-19' ist angekommen
-Auto 'Thread-20' ist angekommen
-Reinigung für Auto 'Thread-11' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-11' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-14' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-9' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-9' wurde komplett gewaschen
-Reinigung für Auto 'Thread-16' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-12' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-12' wurde komplett gewaschen
-Reinigung für Auto 'Thread-17' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Nachmittag Minute 25: 4 Autos kommen vorbei
-Auto 'Thread-21' ist angekommen
-Auto 'Thread-22' ist angekommen
-Auto 'Thread-23' ist angekommen
-Auto 'Thread-24' ist angekommen
-Reinigung für Auto 'Thread-13' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-13' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-18' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-8' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-8' wurde komplett gewaschen
-Reinigung für Auto 'Thread-15' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-15' wurde komplett gewaschen
-Reinigung für Auto 'Thread-19' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-14' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-14' wurde komplett gewaschen
-Reinigung für Auto 'Thread-20' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Nachmittag Minute 30: 5 Autos kommen vorbei
-Auto 'Thread-25' ist angekommen
-Auto 'Thread-26' ist angekommen
-Auto 'Thread-27' ist angekommen
-Auto 'Thread-28' ist angekommen
-Auto 'Thread-29' ist angekommen
-Reinigung für Auto 'Thread-16' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-16' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-21' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-11' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-11' wurde komplett gewaschen
-Reinigung für Auto 'Thread-3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-3' wurde komplett gewaschen
-Reinigung für Auto 'Thread-17' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-17' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-22' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-19' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-19' wurde komplett gewaschen
-Reinigung für Auto 'Thread-23' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-18' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-18' wurde komplett gewaschen
-Reinigung für Auto 'Thread-24' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Nachmittag Minute 35: 4 Autos kommen vorbei
-Auto 'Thread-30' ist angekommen
-Auto 'Thread-31' ist angekommen
-Auto 'Thread-32' ist angekommen
-Auto 'Thread-33' ist angekommen
-Reinigung für Auto 'Thread-21' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-16' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-25' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-16' wurde komplett gewaschen
-Reinigung für Auto 'Thread-21' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-20' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-20' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-26' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-22' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-27' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-22' wurde komplett gewaschen
-Nachmittag Minute 40: 3 Autos kommen vorbei
-Auto 'Thread-34' ist angekommen
-Auto 'Thread-35' ist angekommen
-Auto 'Thread-36' ist angekommen
-Reinigung für Auto 'Thread-23' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-23' wurde komplett gewaschen
-Reinigung für Auto 'Thread-28' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-25' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-29' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-24' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-30' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-13' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-13' wurde komplett gewaschen
-Reinigung für Auto 'Thread-25' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-17' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-17' wurde komplett gewaschen
-Reinigung für Auto 'Thread-24' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-20' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-26' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-20' wurde komplett gewaschen
-Reinigung für Auto 'Thread-31' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-26' wurde komplett gewaschen
-Nachmittag Minute 45: 4 Autos kommen vorbei
-Auto 'Thread-37' ist angekommen
-Auto 'Thread-38' ist angekommen
-Auto 'Thread-39' ist angekommen
-Auto 'Thread-40' ist angekommen
-Reinigung für Auto 'Thread-27' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-27' wurde komplett gewaschen
-Reinigung für Auto 'Thread-32' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-28' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-25' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-33' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-25' wurde komplett gewaschen
-Reinigung für Auto 'Thread-28' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-29' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-29' wurde komplett gewaschen
-Reinigung für Auto 'Thread-34' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-24' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-24' wurde komplett gewaschen
-Reinigung für Auto 'Thread-31' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-31' wurde komplett gewaschen
-Reinigung für Auto 'Thread-35' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Nachmittag Minute 50: 5 Autos kommen vorbei
-Auto 'Thread-41' ist angekommen
-Auto 'Thread-42' ist angekommen
-Auto 'Thread-43' ist angekommen
-Auto 'Thread-44' ist angekommen
-Auto 'Thread-45' ist angekommen
-Reinigung für Auto 'Thread-30' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-30' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-36' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-21' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-21' wurde komplett gewaschen
-Nachmittag Minute 55: 4 Autos kommen vorbei
-Auto 'Thread-46' ist angekommen
-Auto 'Thread-47' ist angekommen
-Auto 'Thread-48' ist angekommen
-Auto 'Thread-49' ist angekommen
-Reinigung für Auto 'Thread-34' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-34' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-37' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-32' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-32' wurde komplett gewaschen
-Reinigung für Auto 'Thread-38' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-35' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-35' wurde komplett gewaschen
-Reinigung für Auto 'Thread-39' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-33' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-33' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-40' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-28' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-28' wurde komplett gewaschen
-Reinigung für Auto 'Thread-36' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-36' wurde komplett gewaschen
-Reinigung für Auto 'Thread-41' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-34' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-34' wurde komplett gewaschen
+Auto 'Auto@Nachmittag:20#0' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:20#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:20#1' ist angekommen
+Auto 'Auto@Nachmittag:20#2' ist angekommen
+Auto 'Auto@Nachmittag:20#3' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:15#2' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:15#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:20#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:10#2' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:10#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:20#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:15#3' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:15#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:20#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:15#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:15#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:15#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@Nachmittag:15#0' wurde komplett gewaschen
+Nachmittag Minute 25: 3 Autos kommen vorbei
+Auto 'Auto@Nachmittag:25#0' ist angekommen
+Auto 'Auto@Nachmittag:25#1' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:25#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:25#2' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:10#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@Nachmittag:10#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:20#1' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:20#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:25#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:20#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:20#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:25#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:20#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:20#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Nachmittag Minute 30: 4 Autos kommen vorbei
+Auto 'Auto@Nachmittag:30#1' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:30#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:30#0' ist angekommen
+Auto 'Auto@Nachmittag:30#2' ist angekommen
+Auto 'Auto@Nachmittag:30#3' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:20#3' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:20#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:30#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:25#0' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:25#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:30#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:15#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:15#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:20#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@Nachmittag:20#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:30#1' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:30#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:30#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Nachmittag Minute 35: 5 Autos kommen vorbei
+Auto 'Auto@Nachmittag:35#0' ist angekommen
+Auto 'Auto@Nachmittag:35#1' ist angekommen
+Auto 'Auto@Nachmittag:35#2' ist angekommen
+Auto 'Auto@Nachmittag:35#3' ist angekommen
+Auto 'Auto@Nachmittag:35#4' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:25#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:25#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:35#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:20#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@Nachmittag:20#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:25#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:25#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:35#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Nachmittag Minute 40: 4 Autos kommen vorbei
+Auto 'Auto@Nachmittag:40#0' ist angekommen
+Auto 'Auto@Nachmittag:40#1' ist angekommen
+Auto 'Auto@Nachmittag:40#2' ist angekommen
+Auto 'Auto@Nachmittag:40#3' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:30#2' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:30#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:35#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:30#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:30#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@Nachmittag:35#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:35#1' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:35#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:35#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:30#3' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:30#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:40#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Nachmittag Minute 45: 3 Autos kommen vorbei
+Auto 'Auto@Nachmittag:45#0' ist angekommen
+Auto 'Auto@Nachmittag:45#1' ist angekommen
+Auto 'Auto@Nachmittag:45#2' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:35#0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:35#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:40#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:25#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:25#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:35#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:35#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:40#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:35#3' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:35#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:40#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:40#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:45#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Nachmittag Minute 50: 3 Autos kommen vorbei
+Auto 'Auto@Nachmittag:50#0' ist angekommen
+Auto 'Auto@Nachmittag:50#1' ist angekommen
+Auto 'Auto@Nachmittag:50#2' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:35#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:35#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:40#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:35#4' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:35#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:45#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Nachmittag Minute 55: 5 Autos kommen vorbei
+Auto 'Auto@Nachmittag:55#0' ist angekommen
+Auto 'Auto@Nachmittag:55#1' ist angekommen
+Auto 'Auto@Nachmittag:55#2' ist angekommen
+Auto 'Auto@Nachmittag:55#3' ist angekommen
+Auto 'Auto@Nachmittag:55#4' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:40#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:40#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:45#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:40#2' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:40#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:50#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:45#0' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:50#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:30#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:45#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:30#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:40#3' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:50#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:30#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:45#1' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:40#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:55#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Nachmittag:45#1' wurde komplett gewaschen
+Auto 'Auto@Nachmittag:30#3' wurde komplett gewaschen
 Nachmittag ist vorbei
 --- RushHour hat begonnen
-RushHour Minute 0: 7 Autos kommen vorbei
-Auto 'Thread-50' ist angekommen
-Auto 'Thread-51' ist angekommen
-Auto 'Thread-52' ist angekommen
-Auto 'Thread-53' ist angekommen
-Auto 'Thread-54' ist angekommen
-Auto 'Thread-55' ist angekommen
-Auto 'Thread-56' ist angekommen
-Reinigung für Auto 'Thread-33' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-33' wurde komplett gewaschen
-Reinigung für Auto 'Thread-38' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-38' wurde komplett gewaschen
-Reinigung für Auto 'Thread-42' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-37' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-37' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-43' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-40' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-40' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-44' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-30' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-30' wurde komplett gewaschen
-RushHour Minute 5: 4 Autos kommen vorbei
-Auto 'Thread-57' ist angekommen
-Auto 'Thread-58' ist angekommen
-Auto 'Thread-59' ist angekommen
-Auto 'Thread-60' ist angekommen
-Reinigung für Auto 'Thread-41' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-41' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-45' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-39' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-39' wurde komplett gewaschen
-Reinigung für Auto 'Thread-46' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-42' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-42' wurde komplett gewaschen
-Reinigung für Auto 'Thread-47' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-RushHour Minute 10: 4 Autos kommen vorbei
-Auto 'Thread-61' ist angekommen
-Auto 'Thread-62' ist angekommen
-Auto 'Thread-63' ist angekommen
-Auto 'Thread-64' ist angekommen
-Reinigung für Auto 'Thread-44' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-44' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-48' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-43' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-43' wurde komplett gewaschen
-Reinigung für Auto 'Thread-49' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-45' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-45' wurde komplett gewaschen
-Reinigung für Auto 'Thread-50' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-46' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-51' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-37' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-37' wurde komplett gewaschen
-Reinigung für Auto 'Thread-46' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-40' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-40' wurde komplett gewaschen
-RushHour Minute 15: 7 Autos kommen vorbei
-Auto 'Thread-65' ist angekommen
-Auto 'Thread-66' ist angekommen
-Auto 'Thread-67' ist angekommen
-Auto 'Thread-68' ist angekommen
-Auto 'Thread-69' ist angekommen
-Auto 'Thread-70' ist angekommen
-Auto 'Thread-71' ist angekommen
-Reinigung für Auto 'Thread-44' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-44' wurde komplett gewaschen
-Reinigung für Auto 'Thread-47' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-47' wurde komplett gewaschen
-Reinigung für Auto 'Thread-52' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-48' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-48' wurde komplett gewaschen
-Reinigung für Auto 'Thread-53' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-49' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-49' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-54' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-51' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-51' wurde komplett gewaschen
-Reinigung für Auto 'Thread-55' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-RushHour Minute 20: 4 Autos kommen vorbei
-Auto 'Thread-72' ist angekommen
-Auto 'Thread-73' ist angekommen
-Auto 'Thread-74' ist angekommen
-Auto 'Thread-75' ist angekommen
-Reinigung für Auto 'Thread-41' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-41' wurde komplett gewaschen
-Reinigung für Auto 'Thread-50' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-50' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-56' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-53' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-53' wurde komplett gewaschen
-Reinigung für Auto 'Thread-57' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-52' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-52' wurde komplett gewaschen
-Reinigung für Auto 'Thread-58' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-46' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-46' wurde komplett gewaschen
-RushHour Minute 25: 4 Autos kommen vorbei
-Auto 'Thread-76' ist angekommen
-Auto 'Thread-77' ist angekommen
-Auto 'Thread-78' ist angekommen
-Auto 'Thread-79' ist angekommen
-Reinigung für Auto 'Thread-55' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-55' wurde komplett gewaschen
-Reinigung für Auto 'Thread-59' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-54' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-54' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-60' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-50' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-50' wurde komplett gewaschen
-Reinigung für Auto 'Thread-58' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-58' wurde komplett gewaschen
-Reinigung für Auto 'Thread-61' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-56' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-56' wurde komplett gewaschen
-Reinigung für Auto 'Thread-62' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-RushHour Minute 30: 5 Autos kommen vorbei
-Auto 'Thread-80' ist angekommen
-Auto 'Thread-81' ist angekommen
-Auto 'Thread-82' ist angekommen
-Auto 'Thread-83' ist angekommen
-Auto 'Thread-84' ist angekommen
-Reinigung für Auto 'Thread-57' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-57' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-63' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-49' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-49' wurde komplett gewaschen
-Reinigung für Auto 'Thread-59' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-59' wurde komplett gewaschen
-Reinigung für Auto 'Thread-64' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-62' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-62' wurde komplett gewaschen
-Reinigung für Auto 'Thread-65' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-RushHour Minute 35: 4 Autos kommen vorbei
-Auto 'Thread-85' ist angekommen
-Auto 'Thread-86' ist angekommen
-Auto 'Thread-87' ist angekommen
-Auto 'Thread-88' ist angekommen
-Reinigung für Auto 'Thread-57' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-57' wurde komplett gewaschen
-Reinigung für Auto 'Thread-60' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-54' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 4
-Auto 'Thread-60' wurde komplett gewaschen
-Auto 'Thread-54' wurde komplett gewaschen
-Reinigung für Auto 'Thread-66' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-63' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-63' wurde komplett gewaschen
-Reinigung für Auto 'Thread-67' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-61' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-61' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
-Reinigung für Auto 'Thread-68' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+RushHour Minute 00: 6 Autos kommen vorbei
+Auto 'Auto@RushHour:00#0' ist angekommen
+Auto 'Auto@RushHour:00#1' ist angekommen
+Auto 'Auto@RushHour:00#2' ist angekommen
+Auto 'Auto@RushHour:00#3' ist angekommen
+Auto 'Auto@RushHour:00#4' ist angekommen
+Auto 'Auto@RushHour:00#5' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:45#2' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:45#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:55#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:50#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:55#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:45#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:45#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:50#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:50#1' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:50#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:55#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:35#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:35#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:40#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@Nachmittag:40#3' wurde komplett gewaschen
+RushHour Minute 05: 7 Autos kommen vorbei
+Auto 'Auto@RushHour:05#0' ist angekommen
+Auto 'Auto@RushHour:05#1' ist angekommen
+Auto 'Auto@RushHour:05#2' ist angekommen
+Auto 'Auto@RushHour:05#3' ist angekommen
+Auto 'Auto@RushHour:05#4' ist angekommen
+Auto 'Auto@RushHour:05#5' ist angekommen
+Auto 'Auto@RushHour:05#6' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:50#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:50#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:55#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:40#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@Nachmittag:40#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:55#0' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:55#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:00#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:55#2' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:55#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:00#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+RushHour Minute 10: 7 Autos kommen vorbei
+Auto 'Auto@RushHour:10#0' ist angekommen
+Auto 'Auto@RushHour:10#1' ist angekommen
+Auto 'Auto@RushHour:10#2' ist angekommen
+Auto 'Auto@RushHour:10#3' ist angekommen
+Auto 'Auto@RushHour:10#4' ist angekommen
+Auto 'Auto@RushHour:10#5' ist angekommen
+Auto 'Auto@RushHour:10#6' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:55#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:55#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:00#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:55#3' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Nachmittag:55#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:00#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:00#1' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:00#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:00#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Nachmittag:55#4' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:55#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:00#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:00#0' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:00#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:05#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+RushHour Minute 15: 4 Autos kommen vorbei
+Auto 'Auto@RushHour:15#0' ist angekommen
+Auto 'Auto@RushHour:15#1' ist angekommen
+Auto 'Auto@RushHour:15#2' ist angekommen
+Auto 'Auto@RushHour:15#3' ist angekommen
+Reinigung für Auto 'Auto@Nachmittag:55#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Nachmittag:55#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:50#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@Nachmittag:50#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:00#4' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:00#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:05#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:00#2' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:00#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:05#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:00#3' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:00#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:05#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+RushHour Minute 20: 5 Autos kommen vorbei
+Auto 'Auto@RushHour:20#0' ist angekommen
+Auto 'Auto@RushHour:20#1' ist angekommen
+Auto 'Auto@RushHour:20#2' ist angekommen
+Auto 'Auto@RushHour:20#3' ist angekommen
+Auto 'Auto@RushHour:20#4' ist angekommen
+Reinigung für Auto 'Auto@RushHour:00#5' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:00#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:05#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:05#0' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:05#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:05#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:00#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:00#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:05#2' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:05#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:05#6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:05#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:05#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:10#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+RushHour Minute 25: 7 Autos kommen vorbei
+Auto 'Auto@RushHour:25#0' ist angekommen
+Auto 'Auto@RushHour:25#1' ist angekommen
+Auto 'Auto@RushHour:25#2' ist angekommen
+Auto 'Auto@RushHour:25#3' ist angekommen
+Auto 'Auto@RushHour:25#4' ist angekommen
+Auto 'Auto@RushHour:25#5' ist angekommen
+Auto 'Auto@RushHour:25#6' ist angekommen
+Reinigung für Auto 'Auto@RushHour:05#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@RushHour:05#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Nachmittag:55#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@Nachmittag:55#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:05#3' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:05#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:10#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:05#5' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:00#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 4
+Auto 'Auto@RushHour:00#0' wurde komplett gewaschen
+Auto 'Auto@RushHour:05#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:10#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:10#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:10#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
+Reinigung für Auto 'Auto@RushHour:10#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+RushHour Minute 30: 4 Autos kommen vorbei
+Auto 'Auto@RushHour:30#0' ist angekommen
+Auto 'Auto@RushHour:30#1' ist angekommen
+Auto 'Auto@RushHour:30#2' ist angekommen
+Auto 'Auto@RushHour:30#3' ist angekommen
+Reinigung für Auto 'Auto@RushHour:05#4' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:05#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:10#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:10#1' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:10#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:10#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:05#6' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:05#6' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:10#6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:10#2' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:10#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:15#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+RushHour Minute 35: 7 Autos kommen vorbei
+Auto 'Auto@RushHour:35#0' ist angekommen
+Auto 'Auto@RushHour:35#1' ist angekommen
+Auto 'Auto@RushHour:35#2' ist angekommen
+Auto 'Auto@RushHour:35#3' ist angekommen
+Auto 'Auto@RushHour:35#4' ist angekommen
+Auto 'Auto@RushHour:35#5' ist angekommen
+Auto 'Auto@RushHour:35#6' ist angekommen
+Reinigung für Auto 'Auto@RushHour:10#4' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:10#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:15#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:10#3' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:10#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:15#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:15#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:15#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:15#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:10#6' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:10#6' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:20#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
 RushHour Minute 40: 5 Autos kommen vorbei
-Auto 'Thread-89' ist angekommen
-Auto 'Thread-90' ist angekommen
-Auto 'Thread-91' ist angekommen
-Auto 'Thread-92' ist angekommen
-Auto 'Thread-93' ist angekommen
-Reinigung für Auto 'Thread-65' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-65' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-69' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-64' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-64' wurde komplett gewaschen
-Reinigung für Auto 'Thread-70' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-RushHour Minute 45: 6 Autos kommen vorbei
-Auto 'Thread-94' ist angekommen
-Auto 'Thread-95' ist angekommen
-Auto 'Thread-96' ist angekommen
-Auto 'Thread-97' ist angekommen
-Auto 'Thread-98' ist angekommen
-Auto 'Thread-99' ist angekommen
-Reinigung für Auto 'Thread-67' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-67' wurde komplett gewaschen
-Reinigung für Auto 'Thread-71' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-66' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-66' wurde komplett gewaschen
-Reinigung für Auto 'Thread-72' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-69' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-69' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-73' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-68' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-68' wurde komplett gewaschen
-Reinigung für Auto 'Thread-74' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-70' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-70' wurde komplett gewaschen
-Reinigung für Auto 'Thread-75' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@RushHour:40#0' ist angekommen
+Auto 'Auto@RushHour:40#1' ist angekommen
+Auto 'Auto@RushHour:40#2' ist angekommen
+Auto 'Auto@RushHour:40#3' ist angekommen
+Auto 'Auto@RushHour:40#4' ist angekommen
+Reinigung für Auto 'Auto@RushHour:05#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:05#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:10#5' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:10#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:20#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:15#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@RushHour:15#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:15#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:15#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:20#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:20#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:20#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:20#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:10#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@RushHour:10#0' wurde komplett gewaschen
+RushHour Minute 45: 7 Autos kommen vorbei
+Auto 'Auto@RushHour:45#0' ist angekommen
+Auto 'Auto@RushHour:45#1' ist angekommen
+Auto 'Auto@RushHour:45#2' ist angekommen
+Auto 'Auto@RushHour:45#3' ist angekommen
+Auto 'Auto@RushHour:45#4' ist angekommen
+Auto 'Auto@RushHour:45#5' ist angekommen
+Auto 'Auto@RushHour:45#6' ist angekommen
+Reinigung für Auto 'Auto@RushHour:15#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:15#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:20#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:15#3' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:15#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:25#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
 RushHour Minute 50: 7 Autos kommen vorbei
-Auto 'Thread-100' ist angekommen
-Auto 'Thread-101' ist angekommen
-Auto 'Thread-102' ist angekommen
-Auto 'Thread-103' ist angekommen
-Auto 'Thread-104' ist angekommen
-Auto 'Thread-105' ist angekommen
-Auto 'Thread-106' ist angekommen
-Reinigung für Auto 'Thread-65' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-65' wurde komplett gewaschen
-Reinigung für Auto 'Thread-71' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-71' wurde komplett gewaschen
-Reinigung für Auto 'Thread-76' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-61' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-61' wurde komplett gewaschen
-Reinigung für Auto 'Thread-72' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-72' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-77' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-RushHour Minute 55: 4 Autos kommen vorbei
-Auto 'Thread-107' ist angekommen
-Auto 'Thread-108' ist angekommen
-Auto 'Thread-109' ist angekommen
-Auto 'Thread-110' ist angekommen
-Reinigung für Auto 'Thread-75' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-75' wurde komplett gewaschen
-Reinigung für Auto 'Thread-78' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-73' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-73' wurde komplett gewaschen
-Reinigung für Auto 'Thread-79' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-74' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-74' wurde komplett gewaschen
-Reinigung für Auto 'Thread-80' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-77' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-77' wurde komplett gewaschen
-Reinigung für Auto 'Thread-72' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-72' wurde komplett gewaschen
-Reinigung für Auto 'Thread-81' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@RushHour:50#0' ist angekommen
+Auto 'Auto@RushHour:50#1' ist angekommen
+Auto 'Auto@RushHour:50#2' ist angekommen
+Auto 'Auto@RushHour:50#3' ist angekommen
+Auto 'Auto@RushHour:50#4' ist angekommen
+Auto 'Auto@RushHour:50#5' ist angekommen
+Auto 'Auto@RushHour:50#6' ist angekommen
+Reinigung für Auto 'Auto@RushHour:20#3' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:20#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:25#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:10#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@RushHour:10#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:20#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:20#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:25#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:20#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:20#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:25#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:20#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 4
+Auto 'Auto@RushHour:20#0' wurde komplett gewaschen
+RushHour Minute 55: 7 Autos kommen vorbei
+Auto 'Auto@RushHour:55#0' ist angekommen
+Auto 'Auto@RushHour:55#1' ist angekommen
+Auto 'Auto@RushHour:55#2' ist angekommen
+Auto 'Auto@RushHour:55#3' ist angekommen
+Auto 'Auto@RushHour:55#4' ist angekommen
+Auto 'Auto@RushHour:55#5' ist angekommen
+Auto 'Auto@RushHour:55#6' ist angekommen
+Reinigung für Auto 'Auto@RushHour:20#4' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:20#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
+Reinigung für Auto 'Auto@RushHour:25#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:25#0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:25#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:25#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:25#2' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:25#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:25#6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:25#1' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:25#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:30#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
 RushHour ist vorbei
 --- Abend hat begonnen
-Abend Minute 0: 5 Autos kommen vorbei
-Auto 'Thread-111' ist angekommen
-Auto 'Thread-112' ist angekommen
-Auto 'Thread-113' ist angekommen
-Auto 'Thread-114' ist angekommen
-Auto 'Thread-115' ist angekommen
-Reinigung für Auto 'Thread-78' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-78' wurde komplett gewaschen
-Reinigung für Auto 'Thread-82' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-76' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-76' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-83' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-69' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-69' wurde komplett gewaschen
-Reinigung für Auto 'Thread-79' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-79' wurde komplett gewaschen
-Reinigung für Auto 'Thread-84' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Abend Minute 5: 6 Autos kommen vorbei
-Auto 'Thread-116' ist angekommen
-Auto 'Thread-117' ist angekommen
-Auto 'Thread-118' ist angekommen
-Auto 'Thread-119' ist angekommen
-Auto 'Thread-120' ist angekommen
-Auto 'Thread-121' ist angekommen
-Reinigung für Auto 'Thread-80' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-80' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-85' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-82' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-82' wurde komplett gewaschen
-Reinigung für Auto 'Thread-86' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-83' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-83' wurde komplett gewaschen
-Reinigung für Auto 'Thread-87' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-81' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-81' wurde komplett gewaschen
-Reinigung für Auto 'Thread-88' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-84' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-84' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-89' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Abend Minute 10: 6 Autos kommen vorbei
-Auto 'Thread-122' ist angekommen
-Auto 'Thread-123' ist angekommen
-Auto 'Thread-124' ist angekommen
-Auto 'Thread-125' ist angekommen
-Auto 'Thread-126' ist angekommen
-Auto 'Thread-127' ist angekommen
-Reinigung für Auto 'Thread-85' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-85' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-90' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-80' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-80' wurde komplett gewaschen
-Reinigung für Auto 'Thread-86' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-86' wurde komplett gewaschen
-Reinigung für Auto 'Thread-91' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-87' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-87' wurde komplett gewaschen
-Reinigung für Auto 'Thread-92' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-88' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-88' wurde komplett gewaschen
-Reinigung für Auto 'Thread-93' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-89' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-89' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-94' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Abend Minute 15: 5 Autos kommen vorbei
-Auto 'Thread-128' ist angekommen
-Auto 'Thread-129' ist angekommen
-Auto 'Thread-130' ist angekommen
-Auto 'Thread-131' ist angekommen
-Auto 'Thread-132' ist angekommen
-Reinigung für Auto 'Thread-76' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-76' wurde komplett gewaschen
-Reinigung für Auto 'Thread-93' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-93' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-95' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-90' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-90' wurde komplett gewaschen
-Reinigung für Auto 'Thread-96' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-92' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-92' wurde komplett gewaschen
-Reinigung für Auto 'Thread-97' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-84' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-84' wurde komplett gewaschen
-Abend Minute 20: 3 Autos kommen vorbei
-Auto 'Thread-133' ist angekommen
-Auto 'Thread-134' ist angekommen
-Auto 'Thread-135' ist angekommen
-Reinigung für Auto 'Thread-91' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-91' wurde komplett gewaschen
-Reinigung für Auto 'Thread-98' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-94' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-94' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-99' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-89' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-89' wurde komplett gewaschen
+Abend Minute 00: 3 Autos kommen vorbei
+Auto 'Auto@Abend:00#0' ist angekommen
+Auto 'Auto@Abend:00#1' ist angekommen
+Auto 'Auto@Abend:00#2' ist angekommen
+Reinigung für Auto 'Auto@RushHour:25#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@RushHour:25#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:25#3' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:25#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:30#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:25#4' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:25#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:30#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:25#5' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:25#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:30#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:25#6' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:25#6' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:30#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:30#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:35#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Abend Minute 05: 6 Autos kommen vorbei
+Auto 'Auto@Abend:05#0' ist angekommen
+Auto 'Auto@Abend:05#1' ist angekommen
+Auto 'Auto@Abend:05#2' ist angekommen
+Auto 'Auto@Abend:05#3' ist angekommen
+Auto 'Auto@Abend:05#4' ist angekommen
+Auto 'Auto@Abend:05#5' ist angekommen
+Reinigung für Auto 'Auto@RushHour:30#1' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:30#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:30#3' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:30#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Abend Minute 10: 4 Autos kommen vorbei
+Auto 'Auto@Abend:10#0' ist angekommen
+Auto 'Auto@Abend:10#1' ist angekommen
+Auto 'Auto@Abend:10#2' ist angekommen
+Auto 'Auto@Abend:10#3' ist angekommen
+Reinigung für Auto 'Auto@RushHour:20#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@RushHour:20#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:30#2' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:30#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:25#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@RushHour:25#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#2' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:35#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:35#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:35#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:35#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:35#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:40#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:30#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@RushHour:30#0' wurde komplett gewaschen
+Abend Minute 15: 4 Autos kommen vorbei
+Auto 'Auto@Abend:15#0' ist angekommen
+Auto 'Auto@Abend:15#1' ist angekommen
+Auto 'Auto@Abend:15#2' ist angekommen
+Auto 'Auto@Abend:15#3' ist angekommen
+Reinigung für Auto 'Auto@RushHour:35#3' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:35#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:40#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:35#5' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:35#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:40#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Abend Minute 20: 5 Autos kommen vorbei
+Auto 'Auto@Abend:20#0' ist angekommen
+Auto 'Auto@Abend:20#1' ist angekommen
+Auto 'Auto@Abend:20#2' ist angekommen
+Auto 'Auto@Abend:20#3' ist angekommen
+Auto 'Auto@Abend:20#4' ist angekommen
+Reinigung für Auto 'Auto@RushHour:40#0' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:40#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:40#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:35#4' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:35#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:40#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:35#6' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:35#6' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:45#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
 Abend Minute 25: 3 Autos kommen vorbei
-Auto 'Thread-136' ist angekommen
-Auto 'Thread-137' ist angekommen
-Auto 'Thread-138' ist angekommen
-Reinigung für Auto 'Thread-85' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-85' wurde komplett gewaschen
-Reinigung für Auto 'Thread-96' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-96' wurde komplett gewaschen
-Reinigung für Auto 'Thread-100' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-94' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-94' wurde komplett gewaschen
-Reinigung für Auto 'Thread-93' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 4
-Reinigung für Auto 'Thread-95' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-93' wurde komplett gewaschen
-Reinigung für Auto 'Thread-101' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-95' wurde komplett gewaschen
-Reinigung für Auto 'Thread-98' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-98' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
-Reinigung für Auto 'Thread-102' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-97' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-97' wurde komplett gewaschen
-Reinigung für Auto 'Thread-103' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Abend Minute 30: 3 Autos kommen vorbei
-Auto 'Thread-139' ist angekommen
-Auto 'Thread-140' ist angekommen
-Auto 'Thread-141' ist angekommen
-Reinigung für Auto 'Thread-99' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-99' wurde komplett gewaschen
-Reinigung für Auto 'Thread-104' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-101' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-101' wurde komplett gewaschen
-Reinigung für Auto 'Thread-105' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-98' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 4
-Auto 'Thread-98' wurde komplett gewaschen
-Reinigung für Auto 'Thread-103' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-103' wurde komplett gewaschen
-Reinigung für Auto 'Thread-106' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Abend Minute 35: 3 Autos kommen vorbei
-Auto 'Thread-142' ist angekommen
-Auto 'Thread-143' ist angekommen
-Auto 'Thread-144' ist angekommen
-Reinigung für Auto 'Thread-100' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-100' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
-Reinigung für Auto 'Thread-107' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-105' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-105' wurde komplett gewaschen
-Reinigung für Auto 'Thread-108' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-102' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-102' wurde komplett gewaschen
-Reinigung für Auto 'Thread-109' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-104' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-104' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-110' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Abend:25#0' ist angekommen
+Auto 'Auto@Abend:25#1' ist angekommen
+Auto 'Auto@Abend:25#2' ist angekommen
+Reinigung für Auto 'Auto@RushHour:40#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:40#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:45#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:40#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:40#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:45#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:40#4' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:40#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:45#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:35#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:35#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:40#3' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:40#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:45#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Abend Minute 30: 6 Autos kommen vorbei
+Auto 'Auto@Abend:30#0' ist angekommen
+Auto 'Auto@Abend:30#1' ist angekommen
+Auto 'Auto@Abend:30#2' ist angekommen
+Auto 'Auto@Abend:30#3' ist angekommen
+Auto 'Auto@Abend:30#4' ist angekommen
+Auto 'Auto@Abend:30#5' ist angekommen
+Reinigung für Auto 'Auto@RushHour:45#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:45#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:45#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:45#2' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:45#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:45#6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:45#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:45#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:50#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Abend Minute 35: 4 Autos kommen vorbei
+Auto 'Auto@Abend:35#0' ist angekommen
+Auto 'Auto@Abend:35#1' ist angekommen
+Auto 'Auto@Abend:35#2' ist angekommen
+Auto 'Auto@Abend:35#3' ist angekommen
+Reinigung für Auto 'Auto@RushHour:40#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:40#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:35#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@RushHour:35#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:40#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@RushHour:40#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:45#3' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:45#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:50#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:45#5' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:50#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@RushHour:45#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:45#4' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:45#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:50#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
 Abend Minute 40: 6 Autos kommen vorbei
-Auto 'Thread-145' ist angekommen
-Auto 'Thread-146' ist angekommen
-Auto 'Thread-147' ist angekommen
-Auto 'Thread-148' ist angekommen
-Auto 'Thread-149' ist angekommen
-Auto 'Thread-150' ist angekommen
-Reinigung für Auto 'Thread-107' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-107' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-111' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-106' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-106' wurde komplett gewaschen
-Reinigung für Auto 'Thread-112' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-108' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-108' wurde komplett gewaschen
-Reinigung für Auto 'Thread-113' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-104' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-104' wurde komplett gewaschen
-Abend Minute 45: 5 Autos kommen vorbei
-Auto 'Thread-151' ist angekommen
-Auto 'Thread-152' ist angekommen
-Auto 'Thread-153' ist angekommen
-Auto 'Thread-154' ist angekommen
-Auto 'Thread-155' ist angekommen
-Reinigung für Auto 'Thread-111' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-111' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-114' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-109' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-109' wurde komplett gewaschen
-Reinigung für Auto 'Thread-115' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-112' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-112' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-116' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-110' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-110' wurde komplett gewaschen
-Reinigung für Auto 'Thread-117' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Abend Minute 50: 3 Autos kommen vorbei
-Auto 'Thread-156' ist angekommen
-Auto 'Thread-157' ist angekommen
-Auto 'Thread-158' ist angekommen
-Reinigung für Auto 'Thread-100' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-100' wurde komplett gewaschen
-Reinigung für Auto 'Thread-111' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-111' wurde komplett gewaschen
-Reinigung für Auto 'Thread-107' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-107' wurde komplett gewaschen
-Reinigung für Auto 'Thread-113' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-113' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-118' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-115' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-115' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-119' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-116' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-116' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-120' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Abend Minute 55: 4 Autos kommen vorbei
-Auto 'Thread-159' ist angekommen
-Auto 'Thread-160' ist angekommen
-Auto 'Thread-161' ist angekommen
-Auto 'Thread-162' ist angekommen
-Reinigung für Auto 'Thread-114' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-121' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-117' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-122' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-113' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-113' wurde komplett gewaschen
-Reinigung für Auto 'Thread-114' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-119' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-123' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-120' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-124' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Abend:40#0' ist angekommen
+Auto 'Auto@Abend:40#1' ist angekommen
+Auto 'Auto@Abend:40#2' ist angekommen
+Auto 'Auto@Abend:40#3' ist angekommen
+Auto 'Auto@Abend:40#4' ist angekommen
+Auto 'Auto@Abend:40#5' ist angekommen
+Reinigung für Auto 'Auto@RushHour:45#6' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:45#6' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:50#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:50#0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:50#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:50#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:45#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@RushHour:45#4' wurde komplett gewaschen
+Abend Minute 45: 6 Autos kommen vorbei
+Auto 'Auto@Abend:45#0' ist angekommen
+Auto 'Auto@Abend:45#1' ist angekommen
+Auto 'Auto@Abend:45#2' ist angekommen
+Auto 'Auto@Abend:45#3' ist angekommen
+Auto 'Auto@Abend:45#4' ist angekommen
+Auto 'Auto@Abend:45#5' ist angekommen
+Reinigung für Auto 'Auto@RushHour:50#1' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:50#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:50#6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:45#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@RushHour:45#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:50#2' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:50#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:50#3' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:50#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Abend Minute 50: 6 Autos kommen vorbei
+Auto 'Auto@Abend:50#0' ist angekommen
+Auto 'Auto@Abend:50#1' ist angekommen
+Auto 'Auto@Abend:50#2' ist angekommen
+Auto 'Auto@Abend:50#3' ist angekommen
+Auto 'Auto@Abend:50#4' ist angekommen
+Auto 'Auto@Abend:50#5' ist angekommen
+Reinigung für Auto 'Auto@RushHour:50#4' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:50#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@RushHour:55#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:50#5' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:50#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:50#6' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:50#6' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Abend Minute 55: 3 Autos kommen vorbei
+Auto 'Auto@Abend:55#0' ist angekommen
+Auto 'Auto@Abend:55#1' ist angekommen
+Auto 'Auto@Abend:55#2' ist angekommen
+Reinigung für Auto 'Auto@RushHour:55#1' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:55#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:55#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:55#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:55#6' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:55#4' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@RushHour:55#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:00#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:55#2' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:55#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:00#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:50#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:50#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#3' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:55#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:00#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
 Abend ist vorbei
-Reinigung für Auto 'Thread-118' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-125' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-122' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-126' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-112' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-117' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Auto 'Thread-112' wurde komplett gewaschen
-Reinigung für Auto 'Thread-116' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-116' wurde komplett gewaschen
-Reinigung für Auto 'Thread-119' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-121' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-127' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-124' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-128' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-123' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-129' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-115' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-115' wurde komplett gewaschen
-Reinigung für Auto 'Thread-120' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-125' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-130' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-127' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-131' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-126' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-132' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-129' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-133' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-114' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-114' wurde komplett gewaschen
-Reinigung für Auto 'Thread-118' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-128' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-134' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-131' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-135' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-130' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-136' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-134' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-137' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-120' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-120' wurde komplett gewaschen
-Reinigung für Auto 'Thread-122' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-133' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-138' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-117' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-117' wurde komplett gewaschen
-Reinigung für Auto 'Thread-121' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-119' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-119' wurde komplett gewaschen
-Reinigung für Auto 'Thread-124' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-132' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-139' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-135' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-140' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-136' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-141' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-124' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-124' wurde komplett gewaschen
-Reinigung für Auto 'Thread-123' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-137' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-142' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-118' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-118' wurde komplett gewaschen
-Reinigung für Auto 'Thread-125' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-138' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-143' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-140' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-144' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-121' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-121' wurde komplett gewaschen
-Reinigung für Auto 'Thread-127' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-139' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-145' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-141' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-146' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-122' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-122' wurde komplett gewaschen
-Reinigung für Auto 'Thread-126' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-145' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-147' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-142' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-148' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-143' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-149' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-146' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-150' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-144' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-151' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-123' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-123' wurde komplett gewaschen
-Reinigung für Auto 'Thread-129' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-147' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-152' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-148' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-153' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-125' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-125' wurde komplett gewaschen
-Reinigung für Auto 'Thread-128' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-126' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-126' wurde komplett gewaschen
-Reinigung für Auto 'Thread-131' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-149' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-154' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-127' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-127' wurde komplett gewaschen
-Reinigung für Auto 'Thread-130' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-150' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-155' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-152' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-156' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-151' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-157' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-131' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-131' wurde komplett gewaschen
-Reinigung für Auto 'Thread-134' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-154' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-158' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-153' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-159' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-157' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-160' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-128' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-128' wurde komplett gewaschen
-Reinigung für Auto 'Thread-133' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-156' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-161' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-155' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-162' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-129' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-129' wurde komplett gewaschen
-Reinigung für Auto 'Thread-132' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-158' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
-Reinigung für Auto 'Thread-160' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 2
-Reinigung für Auto 'Thread-134' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-134' wurde komplett gewaschen
-Reinigung für Auto 'Thread-135' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-130' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-130' wurde komplett gewaschen
-Reinigung für Auto 'Thread-136' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-132' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-132' wurde komplett gewaschen
-Reinigung für Auto 'Thread-137' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-159' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 3
-Reinigung für Auto 'Thread-161' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 4
-Reinigung für Auto 'Thread-162' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 5
-Reinigung für Auto 'Thread-137' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-137' wurde komplett gewaschen
-Reinigung für Auto 'Thread-138' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-133' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-133' wurde komplett gewaschen
-Reinigung für Auto 'Thread-140' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-135' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-135' wurde komplett gewaschen
-Reinigung für Auto 'Thread-139' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-136' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-136' wurde komplett gewaschen
-Reinigung für Auto 'Thread-141' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-140' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-140' wurde komplett gewaschen
-Reinigung für Auto 'Thread-145' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-139' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-139' wurde komplett gewaschen
-Reinigung für Auto 'Thread-142' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-141' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-141' wurde komplett gewaschen
-Reinigung für Auto 'Thread-143' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-138' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-138' wurde komplett gewaschen
-Reinigung für Auto 'Thread-146' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-145' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-145' wurde komplett gewaschen
-Reinigung für Auto 'Thread-144' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-142' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-142' wurde komplett gewaschen
-Reinigung für Auto 'Thread-147' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-146' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-146' wurde komplett gewaschen
-Reinigung für Auto 'Thread-148' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-144' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-144' wurde komplett gewaschen
-Reinigung für Auto 'Thread-149' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-147' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-147' wurde komplett gewaschen
-Reinigung für Auto 'Thread-150' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-143' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-143' wurde komplett gewaschen
-Reinigung für Auto 'Thread-152' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-149' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-149' wurde komplett gewaschen
-Reinigung für Auto 'Thread-151' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-148' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-148' wurde komplett gewaschen
-Reinigung für Auto 'Thread-154' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-150' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-150' wurde komplett gewaschen
-Reinigung für Auto 'Thread-153' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-152' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-152' wurde komplett gewaschen
-Reinigung für Auto 'Thread-157' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-154' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-154' wurde komplett gewaschen
-Reinigung für Auto 'Thread-156' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-156' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-156' wurde komplett gewaschen
-Reinigung für Auto 'Thread-155' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-151' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-151' wurde komplett gewaschen
-Reinigung für Auto 'Thread-158' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-153' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-153' wurde komplett gewaschen
-Reinigung für Auto 'Thread-160' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-157' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-157' wurde komplett gewaschen
-Reinigung für Auto 'Thread-159' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-158' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-158' wurde komplett gewaschen
-Reinigung für Auto 'Thread-161' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-159' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-159' wurde komplett gewaschen
-Reinigung für Auto 'Thread-162' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
-Reinigung für Auto 'Thread-155' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
-Auto 'Thread-155' wurde komplett gewaschen
-Reinigung für Auto 'Thread-160' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 2
-Auto 'Thread-160' wurde komplett gewaschen
-Reinigung für Auto 'Thread-162' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
-Auto 'Thread-162' wurde komplett gewaschen
-Reinigung für Auto 'Thread-161' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 4
-Auto 'Thread-161' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:50#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@RushHour:50#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#6' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:55#6' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:55#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@RushHour:55#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@RushHour:55#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 4
+Auto 'Auto@RushHour:55#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:00#0' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:00#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 3
+Reinigung für Auto 'Auto@Abend:05#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@RushHour:55#5' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@RushHour:55#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:00#1' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:00#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@Abend:05#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:00#2' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:00#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:05#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:05#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#3' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:10#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:00#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:10#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Abend:00#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#2' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:10#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#4' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:10#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:05#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#5' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:15#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:10#1' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:15#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:00#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:00#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:10#0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:15#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:00#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:00#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:10#2' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:15#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:10#3' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:20#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#0' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:20#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#1' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:20#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:05#5' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Abend:05#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:05#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:10#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#3' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:20#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#2' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:20#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:05#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:10#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:05#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:05#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:10#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:25#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:25#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#2' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:25#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:10#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:10#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:10#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#4' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:10#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:30#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Auto 'Auto@Abend:10#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:05#5' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:05#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:15#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#3' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:30#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:25#2' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:30#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:10#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:10#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:15#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:25#0' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:30#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:10#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:10#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:15#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:25#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:30#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#1' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:30#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#0' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:35#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:15#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:20#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#2' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:35#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#3' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:35#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:15#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:20#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:15#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:20#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#5' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:35#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#4' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:40#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:35#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:40#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:35#0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:40#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:15#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:15#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:20#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:20#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:20#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:35#2' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:40#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:35#3' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:40#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#0' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:40#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:20#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:25#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:20#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:25#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#3' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:45#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:20#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:25#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:45#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#2' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:45#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:20#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:20#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:30#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#4' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:45#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#5' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:45#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:30#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:30#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:45#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:25#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:25#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:30#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:25#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:25#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:30#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#0' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:50#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#2' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:50#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#3' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:50#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:30#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:30#5' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#4' in 'WASCHSTRAßE' beendet (Dauer: 9 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:50#3' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#0' in 'WASCHSTRAßE' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:50#4' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:25#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:25#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:30#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#5' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:50#5' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#2' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:55#0' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#5' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:30#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:35#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#1' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:55#1' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#3' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:55#2' in 'WASCHSTRAßE' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#4' in 'WASCHSTRAßE' beendet (Dauer: 7 Minuten). Neue freie Kapazität: 1
+Reinigung für Auto 'Auto@Abend:50#5' in 'WASCHSTRAßE' beendet (Dauer: 6 Minuten). Neue freie Kapazität: 2
+Reinigung für Auto 'Auto@Abend:30#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:30#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:35#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:30#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:35#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:30#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:30#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:35#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:55#0' in 'WASCHSTRAßE' beendet (Dauer: 8 Minuten). Neue freie Kapazität: 3
+Reinigung für Auto 'Auto@Abend:35#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:35#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:40#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:55#1' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 4
+Reinigung für Auto 'Auto@Abend:55#2' in 'WASCHSTRAßE' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 5
+Reinigung für Auto 'Auto@Abend:35#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:35#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:40#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:35#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:35#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:40#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:40#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:40#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:35#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:35#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:40#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:40#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:40#5' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:40#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:45#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:40#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:45#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#5' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:40#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:45#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:40#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:40#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:45#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:45#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:45#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:45#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:50#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:45#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:45#5' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:45#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:50#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:50#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:50#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#5' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:45#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:50#3' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:45#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:45#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:50#4' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:50#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:50#5' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#4' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:50#4' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:55#0' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:50#1' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:55#1' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:50#3' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:50#3' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:55#2' in 'INNENRAUMREINIGUNG' gestartet. Neue freie Kapazität: 0
+Reinigung für Auto 'Auto@Abend:55#2' in 'INNENRAUMREINIGUNG' beendet (Dauer: 5 Minuten). Neue freie Kapazität: 1
+Auto 'Auto@Abend:55#2' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:55#0' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 2
+Auto 'Auto@Abend:55#0' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:50#5' in 'INNENRAUMREINIGUNG' beendet (Dauer: 15 Minuten). Neue freie Kapazität: 3
+Auto 'Auto@Abend:50#5' wurde komplett gewaschen
+Reinigung für Auto 'Auto@Abend:55#1' in 'INNENRAUMREINIGUNG' beendet (Dauer: 10 Minuten). Neue freie Kapazität: 4
+Auto 'Auto@Abend:55#1' wurde komplett gewaschen

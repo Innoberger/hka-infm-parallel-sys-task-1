@@ -10,7 +10,9 @@ public class Auto extends Thread {
     private WaschPark waschPark;
     private int waschstraßeDuration, innenraumreinigungDuration;
 
-    public Auto(Random random, WaschPark waschPark, boolean auchInnenraumreinigung) {
+    public Auto(Random random, WaschPark waschPark, String name, boolean auchInnenraumreinigung) {
+        super(name);
+
         this.waschPark = waschPark;
         this.waschstraßeDuration = WaschTyp.WASCHSTRAßE.getDurations()[random.nextInt(WaschTyp.WASCHSTRAßE.getDurations().length)];
         this.innenraumreinigungDuration = auchInnenraumreinigung ? WaschTyp.INNENRAUMREINIGUNG.getDurations()[random.nextInt(WaschTyp.INNENRAUMREINIGUNG.getDurations().length)] : 0;
