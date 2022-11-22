@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'de.innoberger.hka.infm.parallelsys.task1'
+group 'de.innoberger.hka.infm.parallelsys.waschpark'
 version '1.0-SNAPSHOT'
 
 repositories {

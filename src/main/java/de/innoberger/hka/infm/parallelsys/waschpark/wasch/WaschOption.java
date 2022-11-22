@@ -1,6 +1,6 @@
-package de.innoberger.hka.infm.parallelsys.task1.wasch;
+package de.innoberger.hka.infm.parallelsys.waschpark.wasch;
 
-import de.innoberger.hka.infm.parallelsys.task1.Auto;
+import de.innoberger.hka.infm.parallelsys.waschpark.Auto;
 
 public class WaschOption {
 

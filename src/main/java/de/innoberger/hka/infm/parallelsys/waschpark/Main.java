@@ -1,9 +1,9 @@
-package de.innoberger.hka.infm.parallelsys.task1;
+package de.innoberger.hka.infm.parallelsys.waschpark;
 
-import de.innoberger.hka.infm.parallelsys.task1.timeperiod.Abend;
-import de.innoberger.hka.infm.parallelsys.task1.timeperiod.Nachmittag;
-import de.innoberger.hka.infm.parallelsys.task1.timeperiod.RushHour;
-import de.innoberger.hka.infm.parallelsys.task1.wasch.WaschPark;
+import de.innoberger.hka.infm.parallelsys.waschpark.timeperiod.Abend;
+import de.innoberger.hka.infm.parallelsys.waschpark.timeperiod.Nachmittag;
+import de.innoberger.hka.infm.parallelsys.waschpark.timeperiod.RushHour;
+import de.innoberger.hka.infm.parallelsys.waschpark.wasch.WaschPark;
 
 import java.util.Random;
 
