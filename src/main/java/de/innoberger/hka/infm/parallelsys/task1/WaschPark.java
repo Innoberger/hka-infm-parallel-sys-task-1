@@ -7,4 +7,12 @@ public class WaschPark {
         this.waschstraßen = new WaschOption(WaschTyp.WASCHSTRAßE, waschstraßenCapacity);
         this.innenraumreinigung = new WaschOption(WaschTyp.INNENRAUMREINIGUNG, innenraumreinigungCapacity);
     }
+
+    public WaschOption getWaschstraßen() {
+        return this.waschstraßen;
+    }
+
+    public WaschOption getInnenraumreinigung() {
+        return this.innenraumreinigung;
+    }
 }

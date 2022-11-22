@@ -10,22 +10,20 @@ public class WaschOption {
         this.capacity = capacity;
     }
 
-    private synchronized boolean tryToEnter() {
-        boolean success = false;
-
-        if (this.capacity > 0) {
-            this.capacity--;
-            success = true;
+    public synchronized void enter(Auto auto) {
+        while (this.capacity == 0) {
+            try {
+                this.wait();
+            } catch (InterruptedException ie) {}
         }
 
-        return success;
+        this.capacity--;
+        System.out.println("Reinigung für Auto '" + auto.getName() + "' in '" + this.type.toString() + "' gestartet. Freie Kapazität: " + this.capacity);
     }
 
-    public void enter() {
-        while(!tryToEnter());
-    }
-
-    public synchronized void leave() {
+    public synchronized void leave(Auto auto) {
         this.capacity++;
+        System.out.println("Reinigung für Auto '" + auto.getName() + "' in '" + this.type.toString() + "' beendet. Freie Kapazität: " + this.capacity);
+        this.notify();
     }
 }
