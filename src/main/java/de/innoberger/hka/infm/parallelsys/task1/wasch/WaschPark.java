@@ -1,4 +1,4 @@
-package de.innoberger.hka.infm.parallelsys.task1;
+package de.innoberger.hka.infm.parallelsys.task1.wasch;
 
 public class WaschPark {
     private WaschOption waschstraßen, innenraumreinigung;

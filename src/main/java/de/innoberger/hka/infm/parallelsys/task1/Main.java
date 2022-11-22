@@ -1,7 +1,10 @@
 package de.innoberger.hka.infm.parallelsys.task1;
 
-import java.util.ArrayList;
-import java.util.List;
+import de.innoberger.hka.infm.parallelsys.task1.timeperiod.Abend;
+import de.innoberger.hka.infm.parallelsys.task1.timeperiod.Nachmittag;
+import de.innoberger.hka.infm.parallelsys.task1.timeperiod.RushHour;
+import de.innoberger.hka.infm.parallelsys.task1.wasch.WaschPark;
+
 import java.util.Random;
 
 public class Main {
@@ -14,28 +17,13 @@ public class Main {
         Random random = new Random();
 
         // NACHMITTAG
-        timePeriod(random, "Nachmittag", 3, 5);
+        new Nachmittag();
 
         // RUSH HOUR
-        timePeriod(random, "Rush Hour", 4, 7);
+        new RushHour();
 
         // ABEND
-        timePeriod(random, "Abend", 3, 5);
-    }
-
-    public static void timePeriod(Random random, String name, int minAutos, int maxAutos) {
-        System.out.println("--- " + name + " hat begonnen");
-
-        for (int i = 0; i < 12; i++) {
-            int autoAmount = random.nextInt(3, maxAutos + 1);
-            System.out.println(name + " Minute " + (i * 5) + ": " + autoAmount + " Autos kommen vorbei");
-
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException ie) {}
-        }
-
-        System.out.println(name + " ist vorbei");
+        new Abend();
     }
 
 }
