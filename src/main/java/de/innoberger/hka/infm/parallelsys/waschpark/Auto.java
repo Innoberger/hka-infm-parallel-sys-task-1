@@ -37,6 +37,9 @@ public class Auto extends Thread {
     }
 
     private void doInnenraumreinigung() throws InterruptedException {
+        if (this.innenraumreinigungDuration == 0)
+            return;
+
         waschPark.getInnenraumreinigung().enter(this);
         this.sleep((long) innenraumreinigungDuration * 1000L);
         waschPark.getInnenraumreinigung().leave(this, innenraumreinigungDuration);

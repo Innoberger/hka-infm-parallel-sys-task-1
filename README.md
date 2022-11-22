@@ -5,7 +5,13 @@ This is a training to get used to (Java) parallel programming.
 
 ## Compile
 
-Compile with `gradle build`. This will create a runnable jar file in `build/libs/`.
+If your system got an executable version of [Gradle](https://gradle.org/) (common on Linux and macOS), simply run `gradle build`.
+
+Alternatively, you can run `./gradlew build` on Linux and macOS, or `gradlew.bat build` on Windows.
+
+This will create a runnable jar file in `build/libs/`.
+
+
 
 ## Usage
 
