@@ -11,8 +11,6 @@ Alternatively, you can run `./gradlew build` on Linux and macOS, or `gradlew.bat
 
 This will create a runnable jar file in `build/libs/`.
 
-
-
 ## Usage
 
 Execute with `java -jar <jarfile>`, whereas `<jarfile>` corresponds to the built jar file path.
