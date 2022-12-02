@@ -20,7 +20,7 @@ public class Auto extends Thread {
 
     @Override
     public void run() {
-        System.out.println("Auto '" + this.getName() + "' ist angekommen");
+        System.out.printf("Auto '%s' ist angekommen%s", this.getName(), System.lineSeparator());
 
         try {
             this.doWaschstraße();
@@ -29,7 +29,7 @@ public class Auto extends Thread {
             throw new RuntimeException(e);
         }
 
-        System.out.println("Auto '" + this.getName() + "' wurde komplett gewaschen");
+        System.out.printf("Auto '%s' wurde komplett gewaschen%s", this.getName(), System.lineSeparator());
     }
 
     private void doWaschstraße() throws InterruptedException {
