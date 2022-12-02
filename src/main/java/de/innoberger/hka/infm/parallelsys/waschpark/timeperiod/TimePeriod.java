@@ -45,10 +45,17 @@ public abstract class TimePeriod {
     }
 
     private Auto createAuto(int timeCounter, int autoCounter) {
-        return new Auto(this.random, this.waschPark, String.format("Auto@%s:%02d#%d", this.getName(), timeCounter * 5, autoCounter), this.auchInnenraumreinigung(autoCounter));
+        return new Auto(this.random)
+                .withName(this.buildAutoName(timeCounter, autoCounter))
+                .inWaschpark(this.waschPark)
+                .auchInnenraumreinigung(this.buildAutoAuchInnenraumreinigung(autoCounter));
     }
 
-    private boolean auchInnenraumreinigung(int autoCounter) {
+    private String buildAutoName(int timeCounter, int autoCounter) {
+        return String.format("Auto@%s:%02d#%d", this.getName(), timeCounter * 5, autoCounter);
+    }
+
+    private boolean buildAutoAuchInnenraumreinigung(int autoCounter) {
         return (this.totalAutos + autoCounter) % this.innenraumreinigungModulo == 0;
     }
 

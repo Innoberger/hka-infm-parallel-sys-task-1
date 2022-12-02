@@ -7,15 +7,30 @@ import java.util.Random;
 
 public class Auto extends Thread {
 
+    private Random random;
     private WaschPark waschPark;
     private int waschstraßeDuration, innenraumreinigungDuration;
 
-    public Auto(Random random, WaschPark waschPark, String name, boolean auchInnenraumreinigung) {
-        super(name);
-
-        this.waschPark = waschPark;
+    public Auto(Random random) {
+        this.random = random;
         this.waschstraßeDuration = WaschTyp.WASCHSTRAßE.getDurations()[random.nextInt(WaschTyp.WASCHSTRAßE.getDurations().length)];
-        this.innenraumreinigungDuration = auchInnenraumreinigung ? WaschTyp.INNENRAUMREINIGUNG.getDurations()[random.nextInt(WaschTyp.INNENRAUMREINIGUNG.getDurations().length)] : 0;
+   }
+
+    public Auto withName(String name) {
+        this.setName(name);
+
+        return this;
+    }
+    public Auto inWaschpark(WaschPark waschPark) {
+        this.waschPark = waschPark;
+
+        return this;
+    }
+
+    public Auto auchInnenraumreinigung(boolean auchInnenraumreinigung) {
+        this.innenraumreinigungDuration = auchInnenraumreinigung ? WaschTyp.INNENRAUMREINIGUNG.getDurations()[this.random.nextInt(WaschTyp.INNENRAUMREINIGUNG.getDurations().length)] : 0;
+
+        return this;
     }
 
     @Override
