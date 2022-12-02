@@ -46,9 +46,9 @@ public abstract class TimePeriod {
 
     private Auto createAuto(int timeCounter, int autoCounter) {
         return new Auto(this.random)
-                .withName(this.buildAutoName(timeCounter, autoCounter))
-                .inWaschpark(this.waschPark)
-                .auchInnenraumreinigung(this.buildAutoAuchInnenraumreinigung(autoCounter));
+            .withName(this.buildAutoName(timeCounter, autoCounter))
+            .inWaschpark(this.waschPark)
+            .auchInnenraumreinigung(this.buildAutoAuchInnenraumreinigung(autoCounter));
     }
 
     private String buildAutoName(int timeCounter, int autoCounter) {
