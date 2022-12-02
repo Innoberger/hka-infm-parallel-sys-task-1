@@ -9,7 +9,7 @@ public abstract class TimePeriod {
 
     private Random random;
     private WaschPark waschPark;
-    private int minAutos, maxAutos, innenraumreinigungModulo;
+    private int minAutos, maxAutos, innenraumreinigungModulo, totalAutos;
 
     public TimePeriod(Random random, WaschPark waschPark, int minAutos, int maxAutos, int innenraumreinigungModulo) {
         this.random = random;
@@ -17,37 +17,39 @@ public abstract class TimePeriod {
         this.minAutos = minAutos;
         this.maxAutos = maxAutos;
         this.innenraumreinigungModulo = innenraumreinigungModulo;
+        this.totalAutos = 0;
 
-        System.out.println("--- " + this.getName() + " hat begonnen");
+        System.out.printf("--- %s hat begonnen%n%s", this.getName(), System.lineSeparator());
 
-        int totalAutos = 0;
-
-        for (int i = 0; i < 12; i++) {
+        for (int timeCounter = 0; timeCounter < 12; timeCounter++) {
             int autoAmount = random.nextInt(this.minAutos, this.maxAutos + 1);
-            String minuteString = String.format("%02d", i * 5);
 
-            System.out.println(this.getName() + " Minute " + minuteString + ": " + autoAmount + " Autos kommen vorbei");
+            System.out.printf("%s Minute %02d: %d Autos kommen vorbei%s", this.getName(), timeCounter * 5, autoAmount, System.lineSeparator());
 
-            for (int j = 0; j < autoAmount; j++) {
-                boolean auchInnenraumreinigung = (totalAutos + j) % this.innenraumreinigungModulo == 0;
-
-                Auto auto = new Auto(this.random, this.waschPark, "Auto@" + this.getName() + ":" + minuteString + "#" + j, auchInnenraumreinigung);
-
-                auto.start();
+            for (int autoCounter = 0; autoCounter < autoAmount; autoCounter++) {
+                this.createAuto(timeCounter, autoCounter).start();
             }
 
-            totalAutos += autoAmount;
+            this.totalAutos += autoAmount;
 
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException ie) {}
         }
 
-        System.out.println(this.getName() + " ist vorbei");
+        System.out.printf("%s ist vorbei%s", this.getName(), System.lineSeparator());
     }
 
     public String getName() {
         return this.getClass().getSimpleName();
+    }
+
+    private Auto createAuto(int timeCounter, int autoCounter) {
+        return new Auto(this.random, this.waschPark, String.format("Auto@%s:%02d#%d", this.getName(), timeCounter * 5, autoCounter), this.auchInnenraumreinigung(autoCounter));
+    }
+
+    private boolean auchInnenraumreinigung(int autoCounter) {
+        return (this.totalAutos + autoCounter) % this.innenraumreinigungModulo == 0;
     }
 
 }
