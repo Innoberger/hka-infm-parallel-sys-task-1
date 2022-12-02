@@ -20,6 +20,8 @@ public abstract class TimePeriod {
 
         System.out.println("--- " + this.getName() + " hat begonnen");
 
+        int totalAutos = 0;
+
         for (int i = 0; i < 12; i++) {
             int autoAmount = random.nextInt(this.minAutos, this.maxAutos + 1);
             String minuteString = String.format("%02d", i * 5);
@@ -27,12 +29,14 @@ public abstract class TimePeriod {
             System.out.println(this.getName() + " Minute " + minuteString + ": " + autoAmount + " Autos kommen vorbei");
 
             for (int j = 0; j < autoAmount; j++) {
-                boolean auchInnenraumreinigung = j % this.innenraumreinigungModulo == 0;
+                boolean auchInnenraumreinigung = (totalAutos + j) % this.innenraumreinigungModulo == 0;
 
                 Auto auto = new Auto(this.random, this.waschPark, "Auto@" + this.getName() + ":" + minuteString + "#" + j, auchInnenraumreinigung);
 
                 auto.start();
             }
+
+            totalAutos += autoAmount;
 
             try {
                 Thread.sleep(5000);
