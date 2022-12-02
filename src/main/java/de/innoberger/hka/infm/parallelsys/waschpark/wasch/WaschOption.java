@@ -7,9 +7,16 @@ public class WaschOption {
     private WaschTyp type;
     private int capacity;
 
-    public WaschOption(WaschTyp type, int capacity) {
+    public WaschOption ofType(WaschTyp type) {
         this.type = type;
+
+        return this;
+    }
+
+    public WaschOption withCapacity(int capacity) {
         this.capacity = capacity;
+
+        return this;
     }
 
     public synchronized void enter(Auto auto) {
