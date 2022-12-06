@@ -17,13 +17,13 @@ public class Main {
         Random random = new Random();
 
         // NACHMITTAG
-        new Nachmittag(random, waschPark);
+        new Nachmittag(random, waschPark).execute();
 
         // RUSH HOUR
-        new RushHour(random, waschPark);
+        new RushHour(random, waschPark).execute();
 
         // ABEND
-        new Abend(random, waschPark);
+        new Abend(random, waschPark).execute();
     }
 
 }

@@ -6,6 +6,7 @@ import de.innoberger.hka.infm.parallelsys.waschpark.wasch.WaschPark;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.stream.IntStream;
 
 public abstract class TimePeriod {
 
@@ -22,25 +23,12 @@ public abstract class TimePeriod {
         this.innenraumreinigungModulo = innenraumreinigungModulo;
         this.totalAutos = 0;
         this.pool = Executors.newFixedThreadPool(this.maxAutos);
+    }
 
+    public void execute() {
         System.out.printf("--- %s hat begonnen%s", this.getName(), System.lineSeparator());
 
-        for (int timeCounter = 0; timeCounter < 12; timeCounter++) {
-            int autoAmount = random.nextInt(this.minAutos, this.maxAutos + 1);
-
-            System.out.printf("%s Minute %02d: %d Autos kommen vorbei%s", this.getName(), timeCounter * 5, autoAmount, System.lineSeparator());
-
-            for (int autoCounter = 0; autoCounter < autoAmount; autoCounter++) {
-                this.pool.execute(this.createAuto(timeCounter, autoCounter));
-            }
-
-            this.totalAutos += autoAmount;
-
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException ie) {}
-        }
-
+        IntStream.range(0, 12).forEach(this::runInterval);
         this.pool.shutdown();
 
         System.out.printf("%s ist vorbei%s", this.getName(), System.lineSeparator());
@@ -50,6 +38,19 @@ public abstract class TimePeriod {
         return this.getClass().getSimpleName();
     }
 
+    private void runInterval(int interval) {
+        int autoAmount = random.nextInt(this.minAutos, this.maxAutos + 1);
+
+        System.out.printf("%s Minute %02d: %d Autos kommen vorbei%s", this.getName(), interval * 5, autoAmount, System.lineSeparator());
+
+        IntStream.range(0, autoAmount).forEach(autoCounter -> this.pool.execute(this.createAuto(interval, autoCounter)));
+        this.totalAutos += autoAmount;
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException ie) {}
+    }
+
     private Auto createAuto(int timeCounter, int autoCounter) {
         return new Auto(this.random)
             .withName(this.buildAutoName(timeCounter, autoCounter))
@@ -57,8 +58,8 @@ public abstract class TimePeriod {
             .auchInnenraumreinigung(this.buildAutoAuchInnenraumreinigung(autoCounter));
     }
 
-    private String buildAutoName(int timeCounter, int autoCounter) {
-        return String.format("Auto@%s:%02d#%d", this.getName(), timeCounter * 5, autoCounter);
+    private String buildAutoName(int interval, int autoCounter) {
+        return String.format("Auto@%s:%02d#%d", this.getName(), interval * 5, autoCounter);
     }
 
     private boolean buildAutoAuchInnenraumreinigung(int autoCounter) {
