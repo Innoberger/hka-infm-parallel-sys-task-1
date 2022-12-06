@@ -10,20 +10,20 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        int waschstraßenCapacity = 5;
-        int innenraumreinigungCapacity = 4;
+        WaschPark waschPark = new WaschPark()
+            .withWaschstraßenCapacity(5)
+            .withInnenraumreinigungCapacity(4);
 
-        WaschPark waschPark = new WaschPark(waschstraßenCapacity, innenraumreinigungCapacity);
         Random random = new Random();
 
         // NACHMITTAG
-        new Nachmittag(random, waschPark);
+        new Nachmittag(random, waschPark).execute();
 
         // RUSH HOUR
-        new RushHour(random, waschPark);
+        new RushHour(random, waschPark).execute();
 
         // ABEND
-        new Abend(random, waschPark);
+        new Abend(random, waschPark).execute();
     }
 
 }

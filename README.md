@@ -1,5 +1,5 @@
 # hka-infm-parallel-sys-waschpark
-Exercise 1 "Waschpark" in course "Parallel Systems" at Hochschule Karlsruhe
+Exercises 1 and 2 "Waschpark" in course "Parallel Systems" at Hochschule Karlsruhe
 
 This is a training to get used to (Java) parallel programming.
 
@@ -7,7 +7,7 @@ This is a training to get used to (Java) parallel programming.
 
 If your system got an executable version of [Gradle](https://gradle.org/) (common on Linux and macOS), simply run `gradle build`.
 
-Alternatively, you can run `./gradlew build` on Linux and macOS, or `gradlew.bat build` on Windows.
+Alternatively, you can run `./gradlew build` on Linux and macOS, or `./gradlew.bat build` on Windows.
 
 This will create a runnable jar file in `build/libs/`.
 

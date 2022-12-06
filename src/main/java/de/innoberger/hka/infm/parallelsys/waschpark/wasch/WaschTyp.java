@@ -1,5 +1,7 @@
 package de.innoberger.hka.infm.parallelsys.waschpark.wasch;
 
+import java.util.Random;
+
 public enum WaschTyp {
 
     WASCHSTRAßE(new int[] { 5, 6, 7, 8, 9, 10 }),
@@ -13,6 +15,10 @@ public enum WaschTyp {
 
     public int[] getDurations() {
         return this.durations;
+    }
+
+    public int getRandomDuration(Random random) {
+        return this.getDurations()[random.nextInt(this.getDurations().length)];
     }
 
 }
