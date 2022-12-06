@@ -22,7 +22,7 @@ public abstract class TimePeriod {
         this.maxAutos = maxAutos;
         this.innenraumreinigungModulo = innenraumreinigungModulo;
         this.totalAutos = 0;
-        this.pool = Executors.newFixedThreadPool(this.maxAutos);
+        this.pool = Executors.newCachedThreadPool();
     }
 
     public void execute() {
@@ -47,7 +47,7 @@ public abstract class TimePeriod {
         this.totalAutos += autoAmount;
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(5000L);
         } catch (InterruptedException ie) {}
     }
 
