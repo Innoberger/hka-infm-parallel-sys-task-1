@@ -5,9 +5,10 @@ import de.innoberger.hka.infm.parallelsys.waschpark.wasch.WaschTyp;
 
 import java.util.Random;
 
-public class Auto extends Thread {
+public class Auto implements Runnable {
 
     private Random random;
+    private String name;
     private WaschPark waschPark;
     private int waschstraßeDuration, innenraumreinigungDuration;
 
@@ -17,7 +18,7 @@ public class Auto extends Thread {
    }
 
     public Auto withName(String name) {
-        this.setName(name);
+        this.name = name;
 
         return this;
     }
@@ -35,7 +36,9 @@ public class Auto extends Thread {
 
     @Override
     public void run() {
-        System.out.printf("Auto '%s' ist angekommen%s", this.getName(), System.lineSeparator());
+        Thread.currentThread().setName(this.name);
+
+        System.out.printf("Auto '%s' ist angekommen%s", Thread.currentThread().getName(), System.lineSeparator());
 
         try {
             this.doWaschstraße();
@@ -44,12 +47,12 @@ public class Auto extends Thread {
             throw new RuntimeException(e);
         }
 
-        System.out.printf("Auto '%s' wurde komplett gewaschen%s", this.getName(), System.lineSeparator());
+        System.out.printf("Auto '%s' wurde komplett gewaschen%s", Thread.currentThread().getName(), System.lineSeparator());
     }
 
     private void doWaschstraße() throws InterruptedException {
         waschPark.getWaschstraßen().enter(this);
-        this.sleep((long) waschstraßeDuration * 1000L);
+        Thread.sleep((long) waschstraßeDuration * 1000L);
         waschPark.getWaschstraßen().leave(this, waschstraßeDuration);
     }
 
@@ -58,8 +61,12 @@ public class Auto extends Thread {
             return;
 
         waschPark.getInnenraumreinigung().enter(this);
-        this.sleep((long) innenraumreinigungDuration * 1000L);
+        Thread.sleep((long) innenraumreinigungDuration * 1000L);
         waschPark.getInnenraumreinigung().leave(this, innenraumreinigungDuration);
+    }
+
+    public String getName() {
+        return this.name;
     }
 
 }

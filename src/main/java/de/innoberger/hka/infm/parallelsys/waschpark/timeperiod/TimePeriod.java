@@ -44,11 +44,11 @@ public abstract class TimePeriod {
         return this.getClass().getSimpleName();
     }
 
-    private Auto createAuto(int timeCounter, int autoCounter) {
-        return new Auto(this.random)
+    private Thread createAuto(int timeCounter, int autoCounter) {
+        return new Thread(new Auto(this.random)
             .withName(this.buildAutoName(timeCounter, autoCounter))
             .inWaschpark(this.waschPark)
-            .auchInnenraumreinigung(this.buildAutoAuchInnenraumreinigung(autoCounter));
+            .auchInnenraumreinigung(this.buildAutoAuchInnenraumreinigung(autoCounter)));
     }
 
     private String buildAutoName(int timeCounter, int autoCounter) {
