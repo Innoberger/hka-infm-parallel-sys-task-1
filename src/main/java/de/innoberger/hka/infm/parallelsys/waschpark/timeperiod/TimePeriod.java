@@ -39,7 +39,7 @@ public abstract class TimePeriod {
     }
 
     private void runInterval(int interval) {
-        int autoAmount = random.nextInt(this.minAutos, this.maxAutos + 1);
+        int autoAmount = this.random.nextInt(this.minAutos, this.maxAutos + 1);
 
         System.out.printf("%s Minute %02d: %d Autos kommen vorbei%s", this.getName(), interval * 5, autoAmount, System.lineSeparator());
 
