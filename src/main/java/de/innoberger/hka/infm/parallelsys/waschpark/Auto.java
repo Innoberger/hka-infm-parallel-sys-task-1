@@ -14,7 +14,7 @@ public class Auto implements Runnable {
 
     public Auto(Random random) {
         this.random = random;
-        this.waschstraßeDuration = WaschTyp.WASCHSTRAßE.getDurations()[random.nextInt(WaschTyp.WASCHSTRAßE.getDurations().length)];
+        this.waschstraßeDuration = WaschTyp.WASCHSTRAßE.getRandomDuration(this.random);
    }
 
     public Auto withName(String name) {
@@ -29,7 +29,7 @@ public class Auto implements Runnable {
     }
 
     public Auto auchInnenraumreinigung(boolean auchInnenraumreinigung) {
-        this.innenraumreinigungDuration = auchInnenraumreinigung ? WaschTyp.INNENRAUMREINIGUNG.getDurations()[this.random.nextInt(WaschTyp.INNENRAUMREINIGUNG.getDurations().length)] : 0;
+        this.innenraumreinigungDuration = auchInnenraumreinigung ? WaschTyp.INNENRAUMREINIGUNG.getRandomDuration(this.random) : 0;
 
         return this;
     }
