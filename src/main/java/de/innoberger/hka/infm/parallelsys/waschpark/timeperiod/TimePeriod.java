@@ -12,15 +12,15 @@ public abstract class TimePeriod {
 
     private Random random;
     private WaschPark waschPark;
-    private int minAutos, maxAutos, innenraumreinigungModulo, totalAutos;
+    private int minAutos, maxAutos, innenraumreinigungForEveryXCars, totalAutos;
     private ExecutorService pool;
 
-    public TimePeriod(Random random, WaschPark waschPark, int minAutos, int maxAutos, int innenraumreinigungModulo) {
+    public TimePeriod(Random random, WaschPark waschPark, int minAutos, int maxAutos, int innenraumreinigungForEveryXCars) {
         this.random = random;
         this.waschPark = waschPark;
         this.minAutos = minAutos;
         this.maxAutos = maxAutos;
-        this.innenraumreinigungModulo = innenraumreinigungModulo;
+        this.innenraumreinigungForEveryXCars = innenraumreinigungForEveryXCars;
         this.totalAutos = 0;
         this.pool = Executors.newCachedThreadPool();
     }
@@ -63,7 +63,7 @@ public abstract class TimePeriod {
     }
 
     private boolean buildAutoAuchInnenraumreinigung(int autoCounter) {
-        return (this.totalAutos + autoCounter) % this.innenraumreinigungModulo == 0;
+        return (this.totalAutos + autoCounter) % this.innenraumreinigungForEveryXCars == 0;
     }
 
 }
