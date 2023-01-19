@@ -41,7 +41,7 @@ public class Auto implements Runnable {
         System.out.printf("Auto '%s' ist angekommen%s", Thread.currentThread().getName(), System.lineSeparator());
 
         try {
-            this.doWaschstraße();
+            this.doWaschstrasse();
             this.doInnenraumreinigung();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -50,7 +50,7 @@ public class Auto implements Runnable {
         System.out.printf("Auto '%s' wurde komplett gewaschen%s", Thread.currentThread().getName(), System.lineSeparator());
     }
 
-    private void doWaschstraße() throws InterruptedException {
+    private void doWaschstrasse() throws InterruptedException {
         waschPark.getWaschstrassen().enter(this);
         Thread.sleep((long) waschstrasseDuration * 1000L);
         waschPark.getWaschstrassen().leave(this, waschstrasseDuration);
