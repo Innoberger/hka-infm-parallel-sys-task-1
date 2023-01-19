@@ -1,5 +1,5 @@
 # hka-infm-parallel-sys-waschpark
-Exercises 1 and 2 "Waschpark" in course "Parallel Systems" at Hochschule Karlsruhe
+Exercises 1, 2 and 4 of "Waschpark" in course "Parallel Systems" at Karlsruhe University of Applied Sciences
 
 This is a training to get used to (Java) parallel programming.
 
