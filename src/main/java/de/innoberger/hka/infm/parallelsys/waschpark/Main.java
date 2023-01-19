@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         WaschPark waschPark = new WaschPark()
-            .withWaschstraßenCapacity(5)
+            .withWaschstrassenCapacity(5)
             .withInnenraumreinigungCapacity(4);
 
         Random random = new Random();

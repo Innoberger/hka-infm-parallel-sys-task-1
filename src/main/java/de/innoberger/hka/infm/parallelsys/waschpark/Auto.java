@@ -10,11 +10,11 @@ public class Auto implements Runnable {
     private Random random;
     private String name;
     private WaschPark waschPark;
-    private int waschstraßeDuration, innenraumreinigungDuration;
+    private int waschstrasseDuration, innenraumreinigungDuration;
 
     public Auto(Random random) {
         this.random = random;
-        this.waschstraßeDuration = WaschTyp.WASCHSTRAßE.getRandomDuration(this.random);
+        this.waschstrasseDuration = WaschTyp.WASCHSTRASSE.getRandomDuration(this.random);
    }
 
     public Auto withName(String name) {
@@ -51,9 +51,9 @@ public class Auto implements Runnable {
     }
 
     private void doWaschstraße() throws InterruptedException {
-        waschPark.getWaschstraßen().enter(this);
-        Thread.sleep((long) waschstraßeDuration * 1000L);
-        waschPark.getWaschstraßen().leave(this, waschstraßeDuration);
+        waschPark.getWaschstrassen().enter(this);
+        Thread.sleep((long) waschstrasseDuration * 1000L);
+        waschPark.getWaschstrassen().leave(this, waschstrasseDuration);
     }
 
     private void doInnenraumreinigung() throws InterruptedException {

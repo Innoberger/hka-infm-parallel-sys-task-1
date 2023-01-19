@@ -1,12 +1,12 @@
 package de.innoberger.hka.infm.parallelsys.waschpark.wasch;
 
 public class WaschPark {
-    private WaschOption waschstraßen, innenraumreinigung;
+    private WaschOption waschstrassen, innenraumreinigung;
 
-    public WaschPark withWaschstraßenCapacity(int waschstraßenCapacity) {
-        this.waschstraßen = new WaschOption()
-            .ofType(WaschTyp.WASCHSTRAßE)
-            .withCapacity(waschstraßenCapacity);
+    public WaschPark withWaschstrassenCapacity(int waschstrassenCapacity) {
+        this.waschstrassen = new WaschOption()
+            .ofType(WaschTyp.WASCHSTRASSE)
+            .withCapacity(waschstrassenCapacity);
 
         return this;
     }
@@ -19,8 +19,8 @@ public class WaschPark {
         return this;
     }
 
-    public WaschOption getWaschstraßen() {
-        return this.waschstraßen;
+    public WaschOption getWaschstrassen() {
+        return this.waschstrassen;
     }
 
     public WaschOption getInnenraumreinigung() {
