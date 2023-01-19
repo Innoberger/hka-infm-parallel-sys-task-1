@@ -2,20 +2,12 @@ package de.innoberger.hka.infm.parallelsys.waschpark.wasch;
 
 import de.innoberger.hka.infm.parallelsys.waschpark.Auto;
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.Semaphore;
 
 public class WaschOption {
 
     private WaschTyp type;
-    private int capacity;
-    private final ReentrantLock lock;
-    private final Condition condition;
-
-    public WaschOption() {
-        this.lock = new ReentrantLock();
-        this.condition = this.lock.newCondition();
-    }
+    private Semaphore semaphore;
 
     public WaschOption ofType(WaschTyp type) {
         this.type = type;
@@ -24,37 +16,22 @@ public class WaschOption {
     }
 
     public WaschOption withCapacity(int capacity) {
-        this.capacity = capacity;
+        this.semaphore = new Semaphore(capacity);
 
         return this;
     }
 
     public void enter(Auto auto) {
-        this.lock.lock();
-
         try {
-            while (this.capacity == 0) {
-                try {
-                    this.condition.await();
-                } catch (InterruptedException ie) {}
-            }
-
-            this.capacity--;
-            System.out.printf("Reinigung für Auto '%s' in '%s' gestartet. Neue freie Kapazität: %d%s", auto.getName(), this.type.toString(), this.capacity, System.lineSeparator());
+            this.semaphore.acquire();
+        } catch (InterruptedException ignored) {
         } finally {
-            this.lock.unlock();
+            System.out.printf("Reinigung für Auto '%s' in '%s' gestartet. Neue freie Kapazität: %d%s", auto.getName(), this.type.toString(), this.semaphore.availablePermits(), System.lineSeparator());
         }
     }
 
     public void leave(Auto auto, int duration) {
-        this.lock.lock();
-
-        try {
-            this.capacity++;
-            System.out.printf("Reinigung für Auto '%s' in '%s' beendet (Dauer: %d Minuten). Neue freie Kapazität: %d%s", auto.getName(), this.type.toString(), duration, this.capacity, System.lineSeparator());
-            this.condition.signal();
-        } finally {
-            this.lock.unlock();
-        }
+        this.semaphore.release();
+        System.out.printf("Reinigung für Auto '%s' in '%s' beendet (Dauer: %d Minuten). Neue freie Kapazität: %d%s", auto.getName(), this.type.toString(), duration, this.semaphore.availablePermits(), System.lineSeparator());
     }
 }
